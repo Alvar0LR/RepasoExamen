@@ -11,7 +11,7 @@ public class CarritoDeCompras {
     public void removerItem(Item item) {
         items.remove(item);
     }
-
+    
     public void imprimirDetalle() {
         System.out.println("Detalles del carrito de compras:");
         for (Item item : items) {
@@ -34,11 +34,3 @@ public class CarritoDeCompras {
 }
 
 
-class Item {
-    public String nombre;
-    public double precio;
-    public Item(String nombre, double precio) {
-        this.nombre = nombre;
-        this.precio = precio;
-    }
-}
