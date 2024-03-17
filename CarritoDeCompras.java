@@ -31,6 +31,12 @@ public class CarritoDeCompras {
         carrito.agregarItem(item2);
         carrito.imprimirDetalle();
     }
+    public List<Item> getItems() {
+        return items;
+    }
+    public void setItems(List<Item> items) {
+        this.items = items;
+    }
 }
 
 
