@@ -2,6 +2,15 @@ import java.util.ArrayList;
 import java.util.List;
 public class CarritoDeCompras {
     private List<Item> items;
+
+    
+    public List<Item> getItems() {
+        return items;
+    }
+    public void setItems(List<Item> items) {
+        this.items = items;
+    }
+
     public CarritoDeCompras() {
         this.items = new ArrayList<>();
     }
@@ -31,12 +40,7 @@ public class CarritoDeCompras {
         carrito.agregarItem(item2);
         carrito.imprimirDetalle();
     }
-    public List<Item> getItems() {
-        return items;
-    }
-    public void setItems(List<Item> items) {
-        this.items = items;
-    }
+   
 }
 
 
